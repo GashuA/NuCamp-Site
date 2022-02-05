@@ -31,15 +31,17 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>  
+                <!--Reserve Camptites button-->
                 <div class="col-md-4 col-xl-2 col-xs-12 mt-4 text-nowrap">
-                    <a href="#"> <button class="btn btn-info btn-lg" data-toggle="modal" data-target="#reserveModal">Reserve Campsites</button></a>
+                    <a href="#"> <button class="btn btn-info btn-lg" id="reserveButton">Reserve Campsites</button></a>
                 </div>              
             </div> 
         </div>
+        <!--Reserve campasites Modal form-->
         <div class="modal fade" id="reserveModal" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
-                    <div class="modal-header bg-info text-white">
+                    <div class="modal-header">
                         <h3 class="modal-title">Reserve Campsites</h3>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
@@ -108,15 +110,16 @@
                     <li class="nav-item"><a class="nav-link" href="#"> <i class="fa fa-list fa"></i> Sites</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html"> <i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
+                           <!--Login Icon-->
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
             </div>
         </div>
     </nav>
-
+                <!-- Login Modal form -->
     <div class="modal fade" id="loginModal" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
